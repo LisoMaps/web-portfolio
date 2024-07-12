@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chip Weir || Web Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
+
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+    <header>
+        <div class="profilePicContainer">
+            <a href="#" title="Home">
+                <img src="https://media.licdn.com/dms/image/C4E03AQED3iHTXBdBEw/profile-displayphoto-shrink_400_400/0/1610404047221?e=1726099200&v=beta&t=tOiDMYG9eC-tT7zsUTKZYyXC4FXrGrv9DxZBLgBiPTk" alt="profile-img"/>
+            </a>
+        </div>
+        <nav>
+            <a class="darkerText" href="https://github.com/LisoMaps" title="Github profile" target="_blank"><i class="fab fa-github"></i></a>
+            <a class="darkerText" href="https://www.linkedin.com/in/chip-weir/" title="LinkedIn profile" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a class="darkerText" href="https://github.com/LisoMaps/ultimate-web-portfolio/blob/5e970a790e7ce9223e8629383056a29da4f61f8c/docs/Resume%20(July%202024).pdf" title="Resume" target="_blank"><i class="fa-solid fa-file-pdf"></i></a>
+            <a class="darkerText" href="mailto:work.weir@gmail.com" title="Get in touch" target="_blank"><i class="fa-solid fa-envelope"></i></a>
+        </nav>
+    </header>
+    <main>
+        <section class="profileCard">
+            <div class="nameContainer">
+                <h2>Hey there,</h2>
+                <p class="aboutMe">I'm <span class="highlight">Chip Weir</span>, a <span class="highlight">GIS Programmer/Analyst</span>
+                    who specializes in <span class="highlight">workflow automation</span>... or as I like to call it, making the
+                    <em>monotonous</em> not so <em>obnoxious</em>.<br><br>In addition, I've been delving into the
+                    <span class="highlight">ArcGIS maps SDK for JavaScript</span>.<br><br>Scroll to see some <span class="highlight">project samples</span>!</p>
+            </div>
+          </section>
+        <section class="projectContainer">
+            <h2>ArcPy Script tools/toolboxes</h2>
+            <div class="projectItem">
+                <div>
+                    <p class="projectName">AGOL FL Field Population</p>
+                    <p class="aboutMe">This ArcPy script tool automatically populates and manages the ‘IDENTIFIER’
+                        field in AGOL feature layers, ensuring the consistency and proper formatting of newly populated
+                        ‘IDENTIFIER’ field values.<br><br><i>This tool was developed for a client.</i></p>
+                </div>
+                <div class="imageContainer">
+                    <a href="https://github.com/LisoMaps/ultimate-web-portfolio/blob/846b7c80c2eac2dca157571e1b9d5bcb29084a10/docs/AGOL_ID_Update_Documentation.docx" target="_blank">
+                        <img src="imgs/AGOL_script_tool.png" alt="AGOL-script-tool-screenshot" />
+                        <div class="overlay">
+                            <div class="overlayText">Check out the<br>documentation</div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="projectItem">
+                <div>
+                    <p class="projectName">Custom ArcPy Toolbox</p>
+                    <p class="aboutMe">All of these script tools were previously manual workflows.
+                      I got tired of doing the same thing over and over again so I decided to create
+                      script tools to do the work for me... before I knew it there were 6 of them!
+                      <br><br><i>This custom toolbox was developed for client specific workflows.</i></p>
+                </div>
+                <div class="imageContainer">
+                    <a href="mailto:work.weir@gmail.com" target="_blank">
+                        <img src="imgs/A_Toolbox.png" alt="toolbox-screenshot" />
+                        <div class="overlay">
+                            <div class="overlayText">Reach out or see resume<br>for more info</div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="projectItem">
+                <div>
+                    <p class="projectName">Custom ArcPy Toolbox</p>
+                    <p class="aboutMe">Our client wanted to automate a vector tile package (.vtpk) creation workflow.
+                      After creation, the .vtpk's needed to be uploaded to Azure blob storage so they could be retrieved
+                      by an API and ingested into their new vegetation management app. Thus this suite of script tools was born!
+                      <br><br><i>This custom toolbox was developed for a client.</i></p>
+                </div>
+                <div class="imageContainer">
+                    <a href="mailto:work.weir@gmail.com" target="_blank">
+                        <img src="imgs/Vtpk_Toolbox.png" alt="vtpk-toolbox-screenshot" />
+                        <div class="overlay">
+                            <div class="overlayText">Reach out or see resume<br>for more info</div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+    </section>
+
+    <section class="projectContainer">
+      <h2>JavaScript Web Apps/Maps</h2>
+      <div class="projectItem">
+          <div>
+              <p class="projectName">US Wildfires</p>
+              <p class="aboutMe">This custom JS web app displays active wildfire locations in the US.
+                  <br><br><i>It's built using the ArcGIS Maps SDK for Javascript.</i></p>
+              <div class="linkContainer">
+                  <a target="_blank" href="https://github.com/LisoMaps/US_Wildfires" title="Repo" class="linkItem">
+                      <div>
+                          <i class="fa-brands fa-github"></i>
+                      </div>
+                  </a>
+                  <a target="_blank" href="https://www.arcgis.com/home/item.html?id=d957997ccee7408287a963600a77f61f" title="Data source" class="linkItem">
+                      <div>
+                          <i class="fa-solid fa-database"></i>
+                      </div>
+                  </a>
+              </div>
+          </div>
+          <div class="imageContainer">
+              <a href="https://lisomaps.github.io/US_Wildfires/" target="_blank">
+                  <img src="imgs/US_Wildfires.png" alt="us-wildfires-screenshot" />
+                  <div class="overlay">
+                      <div class="overlayText">Check it out</div>
+                  </div>
+              </a>
+          </div>
+      </div>
+      <div class="projectItem">
+          <div>
+              <p class="projectName">Bobby Dodd Shade Viewer</p>
+              <p class="aboutMe">
+                  <br><br><i>It's built using the ArcGIS Maps SDK for Javascript.</i></p>
+              <div class="linkContainer">
+                  <a target="_blank" href="https://github.com/LisoMaps/BobbyDoddShadeViewer" title="Repo" class="linkItem">
+                      <div>
+                          <i class="fa-brands fa-github"></i>
+                      </div>
+                  </a>
+              </div>
+          </div>
+          <div class="imageContainer">
+              <a href="https://lisomaps.github.io/BobbyDoddShadeViewer/" target="_blank">
+                  <img src="imgs/Shade_Viewer.png" alt="shade-viewer-screenshot" />
+                  <div class="overlay">
+                      <div class="overlayText">Check it out</div>
+                  </div>
+              </a>
+          </div>
+      </div>
+      <div class="projectItem">
+          <div>
+              <p class="projectName">Population, Politics, and the COVID vaccine</p>
+              <p class="aboutMe">This trivariate web map aims to evaluate the percent of people per county that are fully vaccinated,
+                  the voting outcome of the 2020 Presidential election, and county population class (metro, micro, rural).
+                  <br><br><i>This was an undergraduate project and was built using strictly HTML, CSS, and Javascript.</i></p>
+              <div class="linkContainer">
+                  <a target="_blank" href="https://github.com/LisoMaps/Population-Politics-and-the-COVID-vaccine" title="Repo" class="linkItem">
+                      <div>
+                          <i class="fa-brands fa-github"></i>
+                      </div>
+                  </a>
+              </div>
+          </div>
+          <div class="imageContainer">
+              <a href="https://lisomaps.github.io/Population-Politics-and-the-COVID-vaccine/" target="_blank">
+                  <img src="imgs/Population_Politics.png" alt="population-politics-screenshot" />
+                  <div class="overlay">
+                      <div class="overlayText">Check it out</div>
+                  </div>
+              </a>
+          </div>
+      </div>
+      <div class="projectItem">
+          <div>
+              <p class="projectName">Great Smokey NP Backcountry Campsites</p>
+              <p class="aboutMe">This map analyzes the location and density (per sq. mi.) of backcountry campsites
+                  in GRSM NP. All data were taken from NPS open data and displayed on the map using various JS libraries
+                  like Leaflet, jQuery, and Chroma.
+                  <br><br><i>This was an undergraduate project and was built using strictly HTML, CSS, and Javascript.</i></p>
+              <div class="linkContainer">
+                  <a target="_blank" href="https://github.com/LisoMaps/GRSM_NP_backcountry_campsites" title="Repo" class="linkItem">
+                      <div>
+                          <i class="fa-brands fa-github"></i>
+                      </div>
+                  </a>
+                  <a target="_blank" href="https://public-nps.opendata.arcgis.com/" title="Data source" class="linkItem">
+                      <div>
+                          <i class="fa-solid fa-database"></i>
+                      </div>
+                  </a>
+              </div>
+          </div>
+          <div class="imageContainer">
+              <a href="https://lisomaps.github.io/GRSM_NP_backcountry_campsites/" target="_blank">
+                  <img src="imgs/GRSM_NP_Campsites.png" alt="GRSM-NP-campsites-screenshot" />
+                  <div class="overlay">
+                      <div class="overlayText">Check it out</div>
+                  </div>
+              </a>
+          </div>
+      </div>
+  </section>
+  </main>
+  <footer>
+    <p class="footer"><a class="hyperlinks" href="#">Top of page</a></p>
+      <nav>
+        <p class="footer">Website inspired by <a class="hyperlinks" href="https://www.youtube.com/@Smoljames" target="_blank">@Smoljames</a> >></p>
+        <a class="darkerText" href="https://www.youtube.com/watch?v=aLb_fMGZQXI" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+      </nav>
+      <p class="footer">This website was built primarily with <span class="highlightFooter">HTML</span>
+        and <span class="highlightFooter">CSS</span> and a hint of <span class="highlightFooter">JavaScript</span>.</p><br>
+      <p class="footer">&copy; LisoMaps 2024</p>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
