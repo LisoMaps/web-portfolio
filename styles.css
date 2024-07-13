@@ -1,15 +1,15 @@
 :root {
-    --primary-color: #BA7BA1;
-    --secondary-color: #eaeaea;
-    --highlight-color: #47a3b2;
-    --bg-color: #1E2526;
+    --primary-color: #ffd987;
+    --secondary-color: #dee5e9;
+    --highlight-color: #4b8eb8;
+    --bg-color: #132132;
 }
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Inter', sans-serif;
+    font-family: "Source Code Pro", monospace;
     transition-duration: 200ms;
 }
 
@@ -38,7 +38,8 @@ body {
 
 .projectName {
     color: var(--highlight-color);
-    font-size: large;
+    font-family: "Source Code Pro", monospace;
+    font-size: x-large;
 }
 
 header,
@@ -58,7 +59,7 @@ footer {
 
 .footer {
   color: var(--secondary-color);
-  font-size: 10px;
+  font-size: 12px;
   text-align: center;
   margin: 0;
 }
@@ -75,8 +76,8 @@ footer nav {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin-top: 8px;
+  margin-bottom: 8px;
 }
 
 footer nav p.footer {
@@ -86,7 +87,7 @@ footer nav p.footer {
 
 footer .darkerText{
   font-size: 24px;
-  margin: -27px;
+  margin: -25px;
 }
 
 p {
@@ -107,14 +108,23 @@ h2 {
     font-weight: 300;
     font-style: normal;
     font-weight: bold;
-    font-size: x-large;
+    font-size: xx-large;
 }
 
 .aboutMe {
     color: var(--secondary-color);
     line-height: 1.5em;
-    font-size: 14px;
+    font-weight: 400;
+    font-size: 16px;
     max-width: 600px;
+}
+
+.note {
+  color: var(--primary-color);
+  line-height: 1.5em;
+  font-size: 13px;
+  font-weight: 400;
+  max-width: 600px;
 }
 
 .highlight {
@@ -265,6 +275,7 @@ section {
     display: flex;
     flex-direction: column;
     gap: 50px;
+    opacity: 0;
 }
 
 .headerText {
@@ -387,6 +398,6 @@ section {
 }
 
 .overlayText {
-    font-size: 16px;
+    font-size: 14px;
     text-align: center;
 }
