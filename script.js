@@ -45,7 +45,6 @@ document.addEventListener("DOMContentLoaded", function() {
   revealOnScroll(); // Initial call to reveal items already in view
 });
 
-
 // scroll to top on page load/refresh //
 document.addEventListener("DOMContentLoaded", function() {
   // Function to scroll to the top of the page
@@ -60,7 +59,7 @@ document.addEventListener("DOMContentLoaded", function() {
   scrollToTop();
 });
 
-//project card fade in on page load //
+//profile card fade in on page load //
 $(document).ready(function(){
   $(".profileCard").css("opacity", "0").animate({ opacity: 1 }, 3000);
 });
