@@ -1,8 +1,8 @@
 :root {
     --primary-color: #ffd987;
-    --secondary-color: #dee5e9;
-    --highlight-color: #4b8eb8;
-    --bg-color: #132132;
+    --secondary-color: #e7eef2;
+    --highlight-color: #5b97bd;
+    --bg-color: #152232;
 }
 
 * {
@@ -184,6 +184,7 @@ section {
 
 .nameContainer {
     gap: 10px;
+    margin-bottom: 40px;
 }
 
 .statsContainer {
