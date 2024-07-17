@@ -287,7 +287,7 @@ section {
 .projectItem {
     opacity: 0;
     transform: translateY(20px);
-    transition: opacity 1s ease, transform 1s ease;
+    transition: opacity 1s ease, transform 1.5s ease;
     display: flex;
     align-items: center;
     width: 100%;
